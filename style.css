@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: noto-sans-tc;
+
+}
+.figure{
+    text-align: center;
+}
+ul {
+list-style: none; /* Убираем маркеры списка */
+padding: 0;
+display: flex; /* Выстраиваем элементы списка в строку */
+gap: 10px; /* Расстояние между элементами */
+}
+a {
+color: darkred;
+}
+a:hover{
+    color: blue;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.custom-font {
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400; /* Значение веса: 100-900 */
+    font-style: normal;
+}
+.custom-font-italic{
+    font-family: "Noto Sans TC", sans-serif;
+    font-weight: 400; /* Значение веса: 100-900 */
+    font-style: italic;
+}
+h1{
+    font-style: italic;
+    font-weight: bold;
+}
+h2{
+    font-style: italic;
+}
